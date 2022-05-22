@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.container {
+    width: 350px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.title {
+    padding-left: 80px;
+    padding-right: 80px;
+    color: hsl(300, 43%, 22%);
+    padding-bottom: 20px;
+    font-size: 19px;
+}
+
+.pitch {
+    color: hsl(303, 10%, 53%);
+    padding-bottom: 20px;
+}
+
+.rev1 {
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    margin-top: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+.rev2 {
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+
+.rev3 {
+    background-color: hsl(300, 24%, 96%);
+    color: hsl(300, 43%, 22%);
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    background-color: hsl(300, 43%, 22%);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 8px;
+    color: hsl(333, 80%, 67%);
+}
+
+.irene-img {
+    border-radius: 50%;
+    padding-right: 20px;
+}
+
+.colton-img {
+    border-radius: 50%;
+    padding-right: 20px;
+}
+
+.anne-img {
+    border-radius: 50%;
+    padding-right: 20px;
+}
+
+.wrap h4 {
+    color: white;
+}
+
+.irene {
+    background-color: hsl(300, 43%, 22%);
+    padding: 30px;
+    text-align: left;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.colton {
+    background-color: hsl(300, 43%, 22%);
+    padding: 30px;
+    text-align: left;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.anne {
+    background-color: hsl(300, 43%, 22%);
+    padding: 30px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.testimonials p {
+    color: white;
+    padding-top: 20px;
+}
+
+.testimonials {
+    padding-bottom: 30px;
+}
