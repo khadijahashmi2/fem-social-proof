@@ -108,6 +108,7 @@ li {
     padding: 30px;
     text-align: left;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .testimonials p {
@@ -117,4 +118,78 @@ li {
 
 .testimonials {
     padding-bottom: 30px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 1000px;
+    }
+    .ratings {
+        width: 500px;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    .rev1 {
+        margin-left: auto;
+        margin-right: 100px;
+        width: 400px;
+    }
+    .rev2 {
+        margin-left: auto;
+        margin-right: 50px;
+        width: 400px;
+    }
+    .rev3 {
+        margin-left: auto;
+        margin-right: 0px;
+        width: 400px;
+    }
+
+    .heading {
+       width: 350px; 
+       float: left;
+    }
+
+    .heading h2 {
+        font-size: 45px;
+        padding-bottom: 25px;
+        text-align: left;
+    }
+
+    .heading p {
+        text-align: left;
+        line-height: 1.8;
+    }
+
+    .title {
+        padding: 0;
+    }
+
+    .colton {
+        width: 250px;
+        height: 150px;
+    }
+
+    .irene {
+        width: 259px;
+        margin-top: 20px;
+        height: 150px;
+    }
+
+    .anne {
+        width: 250px;
+        height: 150px;
+        margin-top: 40px;
+    }
+
+    .testimonials {
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container {
+        margin-top: 100px;
+    }
+   
 }
